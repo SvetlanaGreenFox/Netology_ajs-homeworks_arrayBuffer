@@ -1,0 +1,42 @@
+{
+  "name": "netology_ajs-homeworks_arraybuffer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaGreenFox/Netology_ajs-homeworks_arrayBuffer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvetlanaGreenFox/Netology_ajs-homeworks_arrayBuffer/issues"
+  },
+  "homepage": "https://github.com/SvetlanaGreenFox/Netology_ajs-homeworks_arrayBuffer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.3.1",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^2.4.4",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "core-js": "^3.19.1"
+  }
+}
